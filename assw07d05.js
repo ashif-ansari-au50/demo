@@ -3,6 +3,7 @@ if the change is reflected to obj1 or not?
 Explain your observation.  */
 
 obj1={
+<<<<<<< HEAD
     firstname:"Mohsin",
     middlename:"qureshi",
     lastname:"arif",
@@ -15,3 +16,24 @@ obj2.lastname="abdulla",
 console.log(obj2)
 console.log(obj1)
 // observation : yes it is changing the value of obj1 because it is storing the reference address of obj1
+=======
+    firstname:"siddiqui",
+    middlename:"hamza",
+    lastname:"hamid",
+}
+let obj2 = obj1
+obj2.firstname="khan",
+obj2.middlename="atif",
+obj2.lastname="mustak",
+
+console.log(obj2)
+console.log(obj1)
+/* observation : yes it is changing the value of obj1 because it is storing the reference address of obj1
+{ firstname: 'khan', middlename: 'atif', lastname: 'mustak' }
+{ firstname: 'khan', middlename: 'atif', lastname: 'mustak' }
+
+OUTPUT
+
+
+*/
+>>>>>>> 23e49787d978d5cc41aecef47811403e6c534548
