@@ -6,12 +6,8 @@ function findSum(n) {
 
   let result = 0;
 
-  for (let i = 1; i <= n; i++) {
-
-      result = result + i;
-  }
-  return result
+  for (let i = 0; i <= 10.; i++){}
 }
 
 
-console.log(`Sum of numebers from 1 to ${n} is ${findSum(n)}`)
+console.log(n)

@@ -1,17 +1,17 @@
-<<<<<<< HEAD
-let arr = ["1", "2", "3", "4"];
-arr2=arr.join()
-console.log(arr2);
-let map1 = arr.map(x => x * 10)
-console.log(map1);
-=======
-// Q-1) Write a function to convert an array of string of numbers into a number and multiply it by 10. 
+digits= [1,2,3];
+var plusOne = function(digits) {
+    for(let i = digits.length - 1; i >= 0; i--) {
+          digits[i]++;
+  
+          if( digits[i] > 9 ){
+              digits[i] = 0;
+          } else{
+              return digits;
+          }
+      }
+  
+      digits.unshift(1);
+      return digits
+  }
 
-var mul= () => {
-    var digit = ["1","2","3","4","5","6",]
-    console.log(digit.join("")*10)
-    }
-    mul()
-
-
->>>>>>> 50097627a73fb8ca90eae9e1377caa21a3261006
+  digits()
