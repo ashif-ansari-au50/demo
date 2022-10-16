@@ -1,3 +1,11 @@
-n = 567;
-n = Math.ceil(n/10);
-console.log(n);
+function abc(){
+    var a = 10;
+    function def(){
+          var b = 20;
+          console.log(b);
+    }
+   
+    return def;
+}
+
+abc()();
